@@ -1,0 +1,72 @@
+body{
+    padding:0;
+    margin:0;
+    height:100px;
+    width:100;
+}
+
+nav {
+    background-color: orange;  /* Set the background of the nav bar to orange */
+    padding: 10px 0;
+    text-align: center; /* Center align the navigation */
+}
+
+/* Style the list to be inline */
+#nav {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+#nav li{
+    background-color: orange;
+    display: inline-block;
+    margin:10px;
+    padding:10px;
+}
+
+#hero {
+    position:relative;
+}
+
+#signup{
+    position:absolute;
+    background-image: url();
+}
+
+#container{
+    height:500px;
+    width:300px;
+    border:1px solid black;
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    /*justify-content for the main axis*/
+    justify-content:flex-start;
+    align-items:center; 
+    
+}
+
+#column-container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    border:1px solid black;
+    margin-top:20px;
+    flex-direction: column;
+    gap:10px;
+}
+.box{
+    height: 50px;
+    width:50px;
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
